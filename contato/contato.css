@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+width: 1440px;
+height: 1024px;
+} 
+.barradetarefas{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 1870px;
+height: 100px;
+background-color: #acacac;
+}
+
+
+#logotext:hover{
+    transform:scale(1.1)
+ }
+
+#logo{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    width: 280px;
+    height: 100px;
+    z-index: 1;
+
+}
+
+#fundo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 2000px;
+    height: 1000px;
+    z-index: -1;
+
+}
+
+ #quemtext:hover{
+    transform:scale(1.1)
+ }
+#quemtext {
+    position: absolute;
+    top: 40px ;
+    left: 315px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+#projetostext:hover{
+    transform:scale(1.1)}
+
+#projetostext {
+    position: absolute;
+    top: 40px ;
+    left: 600px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#cadastrotext:hover{
+    transform:scale(1.1)
+ }
+
+#cadastrotext {
+    position: absolute;
+    top: 40px ;
+    left: 1500px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#contatotext:hover{
+    transform:scale(1.1)
+ }
+
+#contatotext {
+    position: absolute;
+    top: 40px ;
+    left: 1300px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#separaçãotext {
+    position: absolute;
+    top: 40px ;
+    left: 550px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#separação1text {
+    position: absolute;
+    top: 40px ;
+    left: 970px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#separação2text {
+    position: absolute;
+    top: 40px ;
+    left: 1250px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#separação3text {
+    position: absolute;
+    top: 40px ;
+    left: 1460px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#separação4text {
+    position: absolute;
+    top: 40px ;
+    left: 1630px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#entrartext:hover{
+    transform:scale(1.1)
+}
+
+ #entrartext {
+    position: absolute;
+    top: 40px ;
+    left: 1500px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#contextotext {
+    position: absolute;
+    top: 176px ;
+    left: 600px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+#telefone{
+    position: absolute;
+    top: 180px;
+    left: 170px;
+    width: 55px;
+    height: 55px;
+    z-index: 1;
+
+}
+
+#telefonetext {
+    position: absolute;
+    top: 180px ;
+    left: 260px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#telefone2text {
+    position: absolute;
+    top: 178px ;
+    left: 640px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#localização2{
+    position: absolute;
+    top: 300px;
+    left: 165px;
+    width: 65px;
+    height: 55px;
+    z-index: 1;
+
+}
+
+#localização1text {
+    position: absolute;
+    top: 320px ;
+    left: 250px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#localização3{
+    position: absolute;
+    top: 430px;
+    left: 165px;
+    width: 65px;
+    height: 55px;
+    z-index: 1;
+
+}
+
+#localização3text {
+    position: absolute;
+    top: 450px ;
+    left: 250px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#textotext {
+    position: absolute;
+    top: 570px ;
+    left: 300px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#instagram{
+    position: absolute;
+    top: 685px;
+    left: 170px;
+    width: 65px;
+    height: 55px;
+    z-index: 1;
+
+}
+
+#instagramtext {
+    position: absolute;
+    top: 690px ;
+    left: 250px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#facebook{
+    position: absolute;
+    top: 815px;
+    left: 170px;
+    width: 65px;
+    height: 55px;
+    z-index: 1;
+}
+
+#facebooktext {
+    position: absolute;
+    top: 825px ;
+    left: 250px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#comotext:hover{
+    transform:scale(1.1)
+ }
+
+#comotext {
+    position: absolute;
+    top: 40px ;
+    left: 1000px;
+    font-size: 20px;
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
